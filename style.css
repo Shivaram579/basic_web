@@ -1,0 +1,433 @@
+.div1{
+    background-color: aliceblue;
+    width: 240px;
+    border-radius: 20px;
+    border-style:groove;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 2px;
+   
+}
+body{
+    background-color: bisque;
+}
+.subscribe{
+    color: white;
+    background-color: rgb(151, 16, 16);
+    height: 42px;
+    border: none;
+    width: 100px;
+    border-radius: 2px;
+    font-style: bold;
+    cursor: pointer;
+    
+
+}
+.join{
+    color: rgb(41, 118, 211);
+    background-color: white;
+    height: 42px;
+    border-color: rgb(41, 118, 211);
+    border-width: 1px;
+    border-style: solid;
+    width: 70px;
+    border-radius: 2px;
+    margin-left: 8px;
+    cursor: pointer;
+    
+
+}
+.tweet{
+    color: white;
+    border: none;
+    width: 74px;
+    height: 42px;
+    background-color: rgba(2, 158, 255);
+    border-radius: 21px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    
+
+}
+.request{
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    height: 42px;
+    width: 98px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.cart{
+    color: black;
+    background-color: rgb(255, 216, 20);
+    border:none;
+    width: 150px;
+    height: 28px;
+    border-radius: 16px;
+    font-weight:300;
+    cursor: pointer;
+    margin-left: 8px;
+
+
+}
+.signup{
+    color: white;
+    background-color: rgb(46, 164, 79);
+    border-radius: 4px;
+    border: none;
+    height: 32px;
+    width: 83px;
+    cursor: pointer;
+    margin-left: 8px;
+
+}
+.getstarted{
+    color: white;
+    background-color: rgb(121, 82, 125);
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 100px;
+
+}
+.download{
+    color: grey;
+    background-color: white;
+    border-color: grey;
+    font-weight: bold;
+    border-radius: 3px;
+    height: 40px;
+    width: 100px;
+    border-width: 1px;
+    margin-left: 8px;
+    cursor: pointer;
+
+}
+.bootstrap{
+    padding-top: 20px;
+    background-color: rgb(240, 150, 16);
+    padding-bottom: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border-color: aqua;
+    border-width: 30px;
+    
+}
+.bootstrap h1{
+    display: flex;
+    font-style: italic;
+    padding-left: 20px;
+ 
+    
+    
+    
+    
+    
+}
+.apply{
+    color: white;
+    background-color: rgb(10,102,194);
+    height: 42px;
+    width: 240px;
+    font-weight: bold;
+    border-radius: 21px;
+    border:none;
+    margin-right: 8px;
+
+}
+.save{
+    color: rgb(10,102,194);
+    background-color: white;
+    border-radius: 40px;
+    border-color:rgb(10,102,194) ;
+    border-style:solid;
+    height: 42px;
+    width: 100px;
+    font-weight: bold;
+    border-width: 2px;
+}
+.linkedin{
+    background-color: azure;
+    padding:30px 9px 30px ;
+    border-radius:3px;
+    width: 500px;
+}
+
+
+.subscribe-effect{
+    color: white;
+    background-color: rgb(151, 16, 16);
+    height: 42px;
+    border: none;
+    width: 100px;
+    border-radius: 2px;
+    font-style: bold;
+    cursor: pointer;
+    transition: opacity 0.1s;
+    
+
+}
+.subscribe-effect:hover{
+    opacity: 0.8;
+}
+.subscribe-effect:active{
+    opacity: 0.5;
+}
+
+.join-effect{
+    color: rgb(41, 118, 211);
+    background-color: white;
+    height: 42px;
+    border-color: rgb(41, 118, 211);
+    border-width: 1px;
+    border-style: solid;
+    width: 70px;
+    border-radius: 2px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: color 0.15s,background-color 0.15s;
+    
+
+}
+.join-effect:hover{
+    color: white;
+    background-color: rgb(41, 118, 211);
+}
+
+
+.tweet-effect{
+    color: white;
+    border: none;
+    width: 74px;
+    height: 42px;
+    background-color: rgba(2, 158, 255);
+    border-radius: 21px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 0.15s;
+    
+
+}
+.tweet-effect:hover{
+    box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+    
+
+}
+.hovering-buttons{
+    padding-top: 30px;
+    background-color: white;
+    padding-left: 35px;
+    padding-bottom: 40px;
+    width: 750px;
+}
+.italic{
+    font-size:large;
+    margin-right: 35px;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+.request-day3{
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    height: 42px;
+    width: 98px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition:opacity  0.15s;
+}
+.request-day3:hover{
+    opacity: 0.8;
+}
+.cart-day3{
+    color: black;
+    background-color: rgb(245, 213, 13);
+    border:none;
+    width: 130px;
+    height: 39px;
+    border-radius: 30px;
+    font-weight:700;
+    cursor: pointer;
+    margin-left: 8px;
+    
+
+
+}
+.cart-day3:hover{
+    background-color: rgb(237, 201, 20);
+}
+.signup-day3{
+    color: white;
+    background-color: rgb(46, 164, 79);
+    border-radius: 4px;
+    border: none;
+    height: 32px;
+    width: 83px;
+    cursor: pointer;
+    margin-left: 8px;
+
+}
+.signup-day3:hover{
+    background-color: rgb(15, 180, 62);
+    box-shadow: 0px  1px 1px   rgba(0,0,0,0.15),0px  1px 1px  rgba(0,0,0,0.34)  ;/*10px 10px  rgb(0,0,0,0.5);*/
+}
+.getstarted-day3{
+    color: white;
+    background-color: rgb(115, 56, 123);
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 100px;
+    
+
+}
+.getstarted-day3:hover{
+    background-color:rgb(101, 29, 110) ;
+
+
+
+}
+.download-day3{
+    color: grey;
+    background-color: white;
+    border-color: rgb(81, 81, 81);
+    font-weight: bold;
+    border-radius: 4px;
+    height: 40px;
+    width: 100px;
+    border-width: 1px;
+    margin-left: 8px;
+    cursor: pointer;
+    
+    transition: background-color 0.19s,color 0.19s ease;
+
+}
+.download-day3:hover{
+    background-color: rgba(147, 142, 142, 0.975);
+    color: white;
+    border: none;
+}
+
+.bootstrap-day3{
+    padding-top: 20px;
+    background-color: rgb(35, 249, 239);
+    padding-bottom: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border-color: aqua;
+    border-width: 30px;
+    transition: background-color 0.15s ease;
+    
+}
+.bootstrap-day3:hover{
+    background-color: black;
+    color:rgb(245, 245, 13);
+}
+
+.bootstrap-day3 h1{
+    display: flex;
+    font-style: italic;
+    padding-left: 20px;
+ 
+    
+    
+    
+    
+    
+}
+.apply-day3{
+    color: white;
+    background-color: rgb(10,102,194);
+    height: 42px;
+    width: 240px;
+    font-weight: bold;
+    border-radius: 21px;
+    border:none;
+    margin-right: 8px;
+
+}
+.apply-day3:hover{
+    background-color:rgb(6, 65, 124) ;
+}
+.save-day3{
+    color: rgb(10,102,194);
+    background-color: white;
+    border-radius: 40px;
+    border-color:rgb(10,102,194) ;
+    border-style:solid;
+    height: 42px;
+    width: 100px;
+    font-weight: bold;
+    border-width: 2px;
+}
+.save-day3:hover{
+    border-width: 3px;
+    
+    border-style: solid;
+    box-shadow: inset 2px -2px 3px rgba(77, 175, 245, 0.808),inset 2px 2px 3px rgba(113, 191, 236, 0.836);
+}
+.divn{
+    font-size: medium;
+    border-color:rgb(250, 175, 34) ;
+    border-radius: 3px;
+    border-style: double;
+    border-width: 7px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width:400px;
+
+
+}
+.divn p{
+    font-size: 30px;
+}
+.cart-day3x{
+    color: black;
+    background-color: hsl(53, 99%, 52%);
+    border:none;
+    width: 130px;
+    height: 39px;
+    border-radius: 30px;
+    font-weight:700;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color 0.15s ease;
+    
+
+
+}
+.cart-day3x:hover{
+    background-color: rgba(231, 252, 4, 0.781);
+
+}
+.buy{
+    color: black;
+    background-color: hsl(44, 99%, 52%);
+    border:none;
+    width: 130px;
+    height: 39px;
+    border-radius: 30px;
+    font-weight:700;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color 0.15s ease;
+    
+
+
+}
+.buy:hover{
+    background-color: rgba(255, 140, 0, 0.975);
+    opacity:0.9;
+
+}
+
